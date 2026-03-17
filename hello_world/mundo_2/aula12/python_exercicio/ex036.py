@@ -24,7 +24,7 @@ prest_format = f'R${prest_mens:,.2f}'.replace('.', 'X').replace(',', '.').replac
 parc_format  = f'{parc:.0f}x'
 print(f'{cor['branco']}O VALOR DO EMPRÉSTIMO DE {casa_format}\nPARCELADO EM {parc_format} DE '
       f'{prest_format} FOI{cor['limpa']}',end=' ')
-# As condições.
+# As condições compostas.
 if prest_mens <= (30 / 100 * sal):
     print(f'{cor['verde']}APROVADO{cor['limpa']}{cor['branco']}!{cor['limpa']}')
 else:
